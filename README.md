@@ -6,4 +6,4 @@ Vi esse desafio no perfil do LinkedIn da Brenda Antunes, achei bem divertido par
 Dá uma olhadinha no repositório dela para conferir os desafios, é ótimo e você não vai se arrepender [cliaca aqui](https://github.com/Brenda-A-S/30-days-css)
 
 # Dia 1 - Ícone de mídia social em camadas
-![giphy](https://github.com/Davi-AlohaDev/Desafio-30dias-HTML-e-CSS/assets/127554027/d2e267b2-085b-4ab1-a622-ae0c4c388035)
+![gif](https://github.com/Davi-AlohaDev/Desafio-30dias-HTML-e-CSS/assets/127554027/d3cef2d4-53c3-4a4f-b0f0-f5cf47e4cb4a)
