@@ -14,3 +14,5 @@ Dá uma olhadinha no repositório dela para conferir os desafios, é ótimo e vo
 * *[Opacidade / transparência do CSS](https://www.w3schools.com/css/css_image_transparency.asp)*
 * *[hover](https://www.w3schools.com/cssref/sel_hover.asp)*
 * *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
+
+# Dia 2 - Loader animado
