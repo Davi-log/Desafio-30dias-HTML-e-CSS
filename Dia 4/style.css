@@ -51,7 +51,7 @@ button::before {
 button:hover::before {
     content: '';
     width: 100%;
-    background-color: slateblue;
+    background-color: blue;
     z-index: -1;
 }
 */
