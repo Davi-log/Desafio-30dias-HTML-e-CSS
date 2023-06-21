@@ -28,3 +28,6 @@ Dá uma olhadinha no repositório dela para conferir os desafios, é ótimo e vo
 ##### O que eu aprendi
 
 * *[animations](https://www.w3schools.com/css/css3_animations.asp)*
+
+
+# Dia 2 - Loader animado
