@@ -30,4 +30,24 @@ Dá uma olhadinha no repositório dela para conferir os desafios, é ótimo e vo
 * *[animations](https://www.w3schools.com/css/css3_animations.asp)*
 
 
-# Dia 2 - Loader animado
+# Dia 3 - Mudança de cor de texto quando entra em outra div
+
+![gif](https://github.com/Davi-AlohaDev/Desafio-30dias-HTML-e-CSS/assets/127554027/2be0e69c-4ce2-473d-90e7-23b442bacaba)
+
+##### O que eu aprendi
+* *[CSS Overflow](https://www.w3schools.com/css/css_overflow.asp)* 
+* *Use [animations](https://www.w3schools.com/css/css3_animations.asp)*
+
+
+##  Desafio dia 04 - Botão com efeito
+
+![gif (1)](https://github.com/Davi-AlohaDev/Desafio-30dias-HTML-e-CSS/assets/127554027/4f15d9e3-de18-4e19-83be-9a507b9b1f44)
+
+##### O que eu aprendi
+
+* *[:hover](https://www.w3schools.com/cssref/sel_hover.asp)* 
+* *[::before](https://www.w3schools.com/cssref/sel_before.asp)*
+* *[::after](https://www.w3schools.com/cssref/sel_after.asp)*
+* *[Transições ](https://www.w3schools.com/css/css3_transitions.asp)*
+* *[transformação](https://www.w3schools.com/cssref/css3_pr_transform.asp)*
+
