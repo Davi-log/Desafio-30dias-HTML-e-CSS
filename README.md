@@ -51,3 +51,20 @@ Dá uma olhadinha no repositório dela para conferir os desafios, é ótimo e vo
 * *[Transições ](https://www.w3schools.com/css/css3_transitions.asp)*
 * *[transformação](https://www.w3schools.com/cssref/css3_pr_transform.asp)*
 
+##  Desafio dia 05 - Efeito pulsar
+
+![gif (2)](https://github.com/Davi-AlohaDev/Desafio-30dias-HTML-e-CSS/assets/127554027/3378c24b-e09b-4f27-b111-dcb6ed780009)
+
+##### O que eu aprendi
+
+* *[animations](https://www.w3schools.com/css/css3_animations.asp)*
+* *[transformação](https://www.w3schools.com/cssref/css3_pr_transform.asp)*
+
+##  Desafio dia 06 - Efeito lightning text 
+
+![gif (3)](https://github.com/Davi-AlohaDev/Desafio-30dias-HTML-e-CSS/assets/127554027/11d04201-b231-4d84-b5bc-8434cf9c26f3)
+
+##### O que eu aprendi
+
+* *[animations](https://www.w3schools.com/css/css3_animations.asp)*
+* *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
