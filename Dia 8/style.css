@@ -1,52 +1,52 @@
-body
-{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Lato', sans-serif;
-    background-color: #262626;
-}
-.coracao
-{
-    position: relative;
-    width: 100px;
-    height: 100px;
-    background-color: rgb(247, 72, 72);
-    transform: rotate(45deg);
-    animation: batidao 1.4s linear infinite;
-}
-.coracao:before
-{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(247, 72, 72);
-    transform: translateY(-50%);
-    border-radius: 50%;
-}
-.coracao:after
-{
-    content:'' ;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(247, 72, 72);
-    transform: translateX(-50%);
-    border-radius: 50%;
+*{
+    padding: 0;
+    margin: 0;
 }
 
-@keyframes batidao
-{
-    0% {transform:  rotate(45deg) scale(1);}
-    25% {transform:  rotate(45deg) scale(1);}
-    30% {transform:  rotate(45deg) scale(1.4);}
-    50% {transform:  rotate(45deg) scale(1.2);}
-    70% {transform:  rotate(45deg) scale(1.4);}
-    100% {transform:  rotate(45deg) scale(1);}
+html{
+    background: black;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+    background-position: 50% 50%;
+    background-size: 1.1rem 1.1rem;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    color: #faf4f4f4;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    color: #faf4f4f4;
+    font-size: 3.125rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+span::before{
+    content: '';
+    font-family: 'Courier New', Courier, monospace;
+    color: #faf4f4f4;
+    animation: text-anime 4s infinite;
+}
+
+@keyframes text-anime{
+    0%{
+        content: 'Codar💻';
+    }
+    50%{
+        content: 'Tomar café ☕'
+    }
+    100%{
+        content: 'Estudar 📚'
+    }
 }
