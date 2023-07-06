@@ -68,3 +68,15 @@ Dá uma olhadinha no repositório dela para conferir os desafios, é ótimo e vo
 
 * *[animations](https://www.w3schools.com/css/css3_animations.asp)*
 * *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
+
+
+##  Desafio dia 07 - Animação texto alternando
+
+![gif](https://github.com/Davi-AlohaDev/Desafio-30dias-HTML-e-CSS/assets/127554027/418ab142-048c-4961-be6b-429e4e0196b3)
+
+
+##### O que eu aprendi
+
+* *[::before](https://www.w3schools.com/cssref/sel_before.asp)*
+* *[animations](https://www.w3schools.com/css/css3_animations.asp)*
+
