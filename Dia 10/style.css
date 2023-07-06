@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: black;
+    margin: 0;
+    overflow: hidden;
+    background-color: #0f0f0f;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    color: #faf4f4;
+    gap: 1rem;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+    background-position: 50% 50%;
+    background-size: 1.1rem 1.1rem;
+    padding: 4rem;
+    border-radius: 1.25rem;
+    overflow: hidden;
+}
+.content h1{
+    border-right: 1px solid gray;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    animation: blink 1s steps(18) infinite normal,
+    typing 2s steps(18) 1s normal both;
+}
+
+@keyframes typing {
+    from{
+        width: 0;
+    }
+    to{
+        width: 15rem;
+    }
+}
+
+@keyframes blink {
+    from{
+        border-right-color: rgb(116, 116, 116);
+    }
+    to{
+        border-right-color: transparent;
+    }
+    
+}
+
+.container::after{
+	content:"";
+    width: 1px;
+    height: 60px;
+    position: absolute;
+    left: -1;
+    top: 70%;
+    transition: top, opacity;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+    background: linear-gradient(transparent, 
+                    #7b68ee, 
+					transparent);
+    opacity: 0;
+}
+
+.container:hover::after{
+    top: 25%;
+    opacity: 1;
+}
