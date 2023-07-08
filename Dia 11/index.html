@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balões de aniversario</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            font-family: 'Gwendolyn', cursive;
+            background: gold;
+            height: 100vh;
+        }
+        .container{
+            width: 890px;
+            height: 300px;
+            margin: 0 auto;
+            padding: 100px;
+            position: relative;
+        }
+        
+        .content{
+            width: 990px;
+            margin: 0 auto;
+            padding: 30px;
+            position: relative;
+        }
+        
+        .content > div{
+            width: 99px;
+            height: 120px;
+            background:  #D4af37;
+            border-radius: 80%;
+            margin: 0 auto;
+            position: absolute;
+            padding: 10px;
+            box-shadow: inset 17px 7px 10px   rgba(247, 190, 3, 0.808);
+            -webkit-transform-origin: bottom center;
+        }
+
+        .content > div:before {
+            color: #D4af37;
+            position: absolute;
+            bottom: -11px;
+            left: 52px;
+            content: "▲";
+            font-size: 1em;
+        }
+
+        span {
+            font-size: 4.8em;
+            color: white;
+            position: relative;
+            top: 30px;
+            left: 50%;
+            margin-left: -27px;
+        }
+
+        .content > div:nth-child(1){
+            background: #D4af37;
+            left: 0;
+            box-shadow: inset 10px 10px 10px rgba(247, 190, 3, 0.808);
+            -webkit-animation: balloon1 6s ease-in-out infinite;
+            -moz-animation: balloon1 6s ease-in-out infinite;
+            -o-animation: balloon1 6s ease-in-out infinite;
+            animation: balloon1 6s ease-in-out infinite;
+        }.content > div:nth-child(1):before {
+        color: #D4af37;
+        }
+        
+        .content > div:nth-child(2){
+            background: #D4af37;
+            left: 120px;
+            box-shadow: inset 10px 10px 10px rgba(247, 190, 3, 0.808);
+            -webkit-animation: balloon2 6s ease-in-out infinite;
+            -moz-animation: balloon2 6s ease-in-out infinite;
+            -o-animation: balloon2 6s ease-in-out infinite;
+            animation: balloon2 6s ease-in-out infinite;
+        }.content > div:nth-child(2):before {
+            color: #D4af37;
+        }
+
+        .content > div:nth-child(3){
+            background: #D4af37;
+            left: 240px;
+            box-shadow: inset 10px 10px 10px rgba(247, 190, 3, 0.808);
+            -webkit-animation: balloon3 6s ease-in-out infinite;
+            -moz-animation: balloon3 6s ease-in-out infinite;
+            -o-animation: balloon3 6s ease-in-out infinite;
+            animation: balloon3 6s ease-in-out infinite;
+        }.content > div:nth-child(3):before {
+            color: #D4af37;
+        }
+
+        .content > div:nth-child(4){
+            background: #D4af37;
+            left: 360px;
+            box-shadow: inset 10px 10px 10px rgba(247, 190, 3, 0.808);
+            -webkit-animation: balloon1 6s ease-in-out infinite;
+            -moz-animation: balloon1 6s ease-in-out infinite;
+            -o-animation: balloon1 6s ease-in-out infinite;
+            animation: balloon1 6s ease-in-out infinite;
+        }.content > div:nth-child(4):before {
+            color: #D4af37;
+        }
+
+        .content > div:nth-child(5){
+            background: #D4af37;
+            left: 480px;
+            box-shadow: inset 10px 10px 10px rgba(247, 190, 3, 0.808);
+            -webkit-animation: balloon2 6s ease-in-out infinite;
+            -moz-animation: balloon2 6s ease-in-out infinite;
+            -o-animation: balloon2 6s ease-in-out infinite;
+            animation: balloon2 6s ease-in-out infinite;
+        }.content > div:nth-child(5):before {
+            color: #D4af37;
+        }
+        .content > div:nth-child(6){
+            background: #D4af37;
+            left: 600px;
+            box-shadow: inset 10px 10px 10px rgba(247, 190, 3, 0.808);
+            -webkit-animation: balloon3 6s ease-in-out infinite;
+            -moz-animation: balloon3 6s ease-in-out infinite;
+            -o-animation: balloon3 6s ease-in-out infinite;
+            animation: balloon3 6s ease-in-out infinite;
+        }.content > div:nth-child(6):before {
+            color: #D4af37;
+        }
+        .content > div:nth-child(7){
+            background: #D4af37;
+            left: 720px;
+            box-shadow: inset 10px 10px 10px rgba(247, 190, 3, 0.808);
+            -webkit-animation: balloon1 6s ease-in-out infinite;
+            -moz-animation: balloon1 6s ease-in-out infinite;
+            -o-animation: balloon1 6s ease-in-out infinite;
+            animation: balloon1 6s ease-in-out infinite;
+        }.content > div:nth-child(7):before {
+            color: #D4af37;
+        }
+        .content > div:nth-child(8){
+            background: #D4af37;
+            left: 840px;
+            box-shadow: inset 10px 10px 10px rgba(247, 190, 3, 0.808);
+            -webkit-animation: balloon2 6s ease-in-out infinite;
+            -moz-animation: balloon2 6s ease-in-out infinite;
+            -o-animation: balloon2 6s ease-in-out infinite;
+            animation: balloon2 6s ease-in-out infinite;
+        }.content > div:nth-child(8):before {
+            color: #D4af37;
+        }
+
+        @-webkit-keyframes balloon1 {
+        0%,
+        100% {
+        -webkit-transform: translateY(0) rotate(-6deg);
+        }
+        50% {
+        -webkit-transform: translateY(-20px) rotate(8deg);
+        }
+        }
+
+        @-moz-keyframes balloon1 {
+        0%,
+        100% {
+        -moz-transform: translateY(0) rotate(-6deg);
+        }
+        50% {
+        -moz-transform: translateY(-20px) rotate(8deg);
+        }
+        }
+
+        @-o-keyframes balloon1 {
+        0%,
+        100% {
+        -o-transform: translateY(0) rotate(-6deg);
+        }
+        50% {
+        -o-transform: translateY(-20px) rotate(8deg);
+        }
+        }
+
+        @keyframes balloon1 {
+        0%,
+        100% {
+        transform: translateY(0) rotate(-6deg);
+        }
+        50% {
+        transform: translateY(-20px) rotate(8deg);
+        }
+        }
+
+        @-webkit-keyframes balloon2 {
+        0%,
+        100% {
+        -webkit-transform: translateY(0) rotate(6deg);
+        }
+        50% {
+        -webkit-transform: translateY(-30px) rotate(-8deg);
+        }
+        }
+
+        @-moz-keyframes balloon2 {
+        0%,
+        100% {
+        -moz-transform: translateY(0) rotate(6deg);
+        }
+        50% {
+        -moz-transform: translateY(-30px) rotate(-8deg);
+        }
+        }
+
+        @-o-keyframes balloon2 {
+        0%,
+        100% {
+        -o-transform: translateY(0) rotate(6deg);
+        }
+        50% {
+        -o-transform: translateY(-30px) rotate(-8deg);
+        }
+        }
+
+        @keyframes balloon2 {
+        0%,
+        100% {
+        transform: translateY(0) rotate(6deg);
+        }
+        50% {
+        transform: translateY(-30px) rotate(-8deg);
+        }
+        }
+        @-webkit-keyframes balloon3 {
+        0%,
+        100% {
+        -webkit-transform: translate(0, -10px) rotate(6deg);
+        }
+        50% {
+        -webkit-transform: translate(-20px, 30px) rotate(-8deg);
+        }
+        }
+
+        @-moz-keyframes balloon3 {
+        0%,
+        100% {
+        -moz-transform: translate(0, -10px) rotate(6deg);
+        }
+        50% {
+        -moz-transform: translate(-20px, 30px) rotate(-8deg);
+        }
+        }
+
+        @-o-keyframes balloon3 {
+        0%,
+        100% {
+        -o-transform: translate(0, -10px) rotate(6deg);
+        }
+        50% {
+        -o-transform: translate(-20px, 30px) rotate(-8deg);
+        }
+        }
+
+        @keyframes balloon3 {
+        0%,
+        100% {
+        transform: translate(0, -10px) rotate(6deg);
+        }
+        50% {
+        transform: translate(-20px, 30px) rotate(-8deg);
+        }
+        }
+
+        .para{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            position: relative;
+            bottom: 25rem;
+        }
+        h1, h3{
+            color: #fff;
+            font-size: 5rem;
+        }
+        
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div>
+                <span>P</span>
+            </div>
+            <div>
+                <span>A</span>
+            </div>
+            <div>
+                <span>R</span>
+            </div>
+            <div>
+                <span>A</span>
+            </div>
+            <div>
+                <span>B</span>
+            </div>
+            <div>
+                <span>É</span>
+            </div>
+            <div>
+                <span>N</span>
+            </div>
+            <div>
+                <span>S</span>
+            </div>
+        </div>
+    </div>
+    <div class="para">
+        <h1>Mãe</h1>
+        <h3>Feliz Aniversário</h3>
+    </div>
+    
+</body>
+</html>
