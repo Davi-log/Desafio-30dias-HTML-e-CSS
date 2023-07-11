@@ -111,3 +111,21 @@ Dá uma olhadinha no repositório dela para conferir os desafios, é ótimo e vo
 * *[content](https://www.w3schools.com/cssref/pr_gen_content.php)*
 * *[animations](https://www.w3schools.com/css/css3_animations.asp)*
 * *[@keyframe](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.php)*
+
+## Desafio dia 12 - Icones animados
+
+![gif](https://github.com/Davi-AlohaDev/Desafio-30dias-HTML-e-CSS/assets/127554027/271c4158-4af9-446d-9927-a6059ce9230d)
+
+##### O que eu utilizei no css
+
+* *[@keyframe](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.php)*
+* *[animations](https://www.w3schools.com/css/css3_animations.asp)*
+
+## Desafio dia 13 - Efeito de flutuação
+
+![gif (1)](https://github.com/Davi-AlohaDev/Desafio-30dias-HTML-e-CSS/assets/127554027/70515e95-3b6d-4441-b803-c85b6fb1a92f)
+
+##### O que eu utilizei no css
+
+* *[animations](https://www.w3schools.com/css/css3_animations.asp)*
+* *[@keyframe](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.php)*
