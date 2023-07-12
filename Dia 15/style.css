@@ -1,0 +1,45 @@
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: gray;
+}
+button {
+    background-color: transparent;
+    color: rgb(49, 255, 245);
+    border: 2px solid rgb(49, 255, 245);
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    font-size: 20px;
+    height: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    overflow: hidden;
+    transition: .5s;
+}
+
+button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+
+    background-color: rgb(49, 255, 245);
+    transition: .5s;
+    z-index: -1;
+}
+
+button:hover::before {
+    content: '';
+    width: 100%;
+    background-color: rgb(49, 255, 245);
+    z-index: -1;
+}
+
+button:hover {
+    color: white;
+    cursor: pointer;
+}
