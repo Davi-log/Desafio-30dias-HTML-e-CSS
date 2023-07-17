@@ -129,3 +129,22 @@ Dá uma olhadinha no repositório dela para conferir os desafios, é ótimo e vo
 
 * *[animations](https://www.w3schools.com/css/css3_animations.asp)*
 * *[@keyframe](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.php)*
+
+## Desafio dia 14 - Botão com hover 
+
+![gif (2)](https://github.com/Davi-AlohaDev/Desafio-30dias-HTML-e-CSS/assets/127554027/95ff292d-caa9-447b-ba0d-6030dc3ecdff)
+
+##### O que eu utilizei no css
+
+* *[::before](https://www.w3schools.com/cssref/sel_before.asp)*
+* *[display: grid;](https://www.w3schools.com/css/css_grid.asp)*
+
+## Desafio dia 15 - Galeria com hover
+
+![gif (4)](https://github.com/Davi-AlohaDev/Desafio-30dias-HTML-e-CSS/assets/127554027/6886451f-2d66-466b-8e47-a13c82b4dfad)
+
+##### O que eu utilizei no css
+
+* *[filter](https://www.w3schools.com/cssref/css3_pr_filter.php)*
+* *[object-fit](https://www.w3schools.com/css/css3_object-fit.asp)*
+* *[Flex](https://www.w3schools.com/cssref/css3_pr_flex.php)*
