@@ -1,0 +1,29 @@
+body{
+    background: #94d9ee;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+p{
+    font-size: 36px;
+    cursor: pointer;
+    position: relative;
+}
+
+p::after{
+    content: '';
+    width: 100%;
+    position: absolute;
+    height: 2px;
+    bottom: -3px;
+    left: 0;
+    background: linear-gradient(112.9deg, #285df3 48.18%, #00c2ff 94.86%);
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-in;
+}
+
+p:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
