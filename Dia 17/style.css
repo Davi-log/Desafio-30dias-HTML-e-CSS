@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(51, 54, 54);
+}
+
+.container{
+    width: 360px;
+    height: 560px;
+}
+
+.container:hover > .card{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.card{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+
+.front-card, 
+.back-card{
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 2rem;
+    position: absolute;
+}
+
+.front-card{
+    transform: rotateY(180deg);
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.old{
+    filter: grayscale(1);
+}
