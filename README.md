@@ -148,3 +148,50 @@ Dá uma olhadinha no repositório dela para conferir os desafios, é ótimo e vo
 * *[filter](https://www.w3schools.com/cssref/css3_pr_filter.php)*
 * *[object-fit](https://www.w3schools.com/css/css3_object-fit.asp)*
 * *[Flex](https://www.w3schools.com/cssref/css3_pr_flex.php)*
+
+## Desafio dia 16 - Animação underline
+
+![gif (1)](https://github.com/Davi-AlohaDev/Desafio-30dias-HTML-e-CSS/assets/127554027/78415929-fb68-4ea5-b0bb-a64e4a3fde7f)
+
+##### O que eu utilizei no css
+
+* *[::after](https://www.w3schools.com/cssref/sel_after.asp)*
+* *[Position](https://www.w3schools.com/cssref/pr_class_position.php)*
+
+## Desafio dia 17 - Card com flip
+
+![gif](https://github.com/Davi-AlohaDev/Desafio-30dias-HTML-e-CSS/assets/127554027/aca5bc3a-1793-4418-b590-6863e047e9ea)
+
+##### O que eu utilizei no css
+
+* *[filter](https://www.w3schools.com/cssref/css3_pr_filter.php)*
+* *[transform-style](https://www.w3schools.com/cssref/css3_pr_transform-style.php)*
+* *[backface-visibility](https://www.w3schools.com/cssref/css3_pr_backface-visibility.php)*
+
+## Desafio dia 18 - Texto com gradiente
+
+![gif (2)](https://github.com/Davi-AlohaDev/Desafio-30dias-HTML-e-CSS/assets/127554027/3cd34b1e-b53b-40d3-9e98-5dfb70f67b24)
+
+##### O que eu utilizei no css
+
+* *[@keyframe](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.php)*
+* *[display: grid;](https://www.w3schools.com/css/css_grid.asp)*
+
+## Desafio dia 19 - Moon
+
+![gif (3)](https://github.com/Davi-AlohaDev/Desafio-30dias-HTML-e-CSS/assets/127554027/33abd1eb-34aa-4e3b-9241-6e9349ed3123)
+
+##### O que eu utilizei no css
+
+* *[@keyframe](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.php)*
+* *[Position](https://www.w3schools.com/cssref/pr_class_position.php)*
+
+## Desafio dia 20 - Menu hover com icones
+
+![gif (4)](https://github.com/Davi-AlohaDev/Desafio-30dias-HTML-e-CSS/assets/127554027/d20c90d2-81d5-459f-a905-d420d0ac5283)
+
+##### O que eu utilizei no css
+
+* *[inset](https://www.w3schools.com/cssref/css_pr_inset.php)*
+* *[opacity](https://www.w3schools.com/cssref/css3_pr_opacity.php)*
+* *[z-index](https://www.w3schools.com/cssref/pr_pos_z-index.php)*
