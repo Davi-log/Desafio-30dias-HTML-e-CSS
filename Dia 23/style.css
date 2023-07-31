@@ -1,0 +1,19 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background: #131D26;
+    overflow: hidden;
+}
+
+img{
+    width: 300px;
+    height: 350px;border-radius: 15px;
+}
+
+body .image:hover{
+    transform: scale(1.05);
+    filter: grayscale(0.5);
+}
