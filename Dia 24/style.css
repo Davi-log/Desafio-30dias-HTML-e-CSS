@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #1a1919;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 4px 5px rgba(83, 83, 83, 0.5);
+    background: #1d1c1c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    transition: all .5s linear;
+    padding: 50px;
+}
+
+.redes-sociais{
+    display: flex;
+    gap: 16px;
+}
+
+.redes-sociais .uil{
+    color: #fff;
+    font-size: 25px;
+}
+
+.container .image img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.sobre{
+    text-align: center;
+    color: #fff;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    transition: all .5s linear;
+    opacity: 0;
+}
+
+.sobre:hover{
+    opacity: 1;
+}
+
+.container:hover{
+    transform: scale(1.1);
+}
